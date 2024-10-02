@@ -1,9 +1,9 @@
 import { Outlet } from "react-router-dom"
 
-function App() {
+function ProtectedRoute() {
   return (
     <Outlet/>
   )
 }
 
-export default App
+export default ProtectedRoute
